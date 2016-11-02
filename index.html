@@ -1,8 +1,29 @@
 <html>
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"
+    />
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
+    <h1 class="center">Rock Paper Scissors</h1>
+    <div class="row">
+      <div class="center col m4">
+        <img id="rock" class="choice" src="http://shop.wwe.com/on/demandware.static/-/Sites/default/dw29757933/images/slot/landing/superstar-landing/Superstar-Category_Superstar_562x408_theRock.png" />
+      </div>
+      <div class="center col m4">
+        <img id="paper" class="choice" src="http://pngimg.com/upload/paper_sheet_PNG7233.png" />
+      </div>
+      <div class="center col m4">
+        <img id="scissors" class="choice" src="http://pngimg.com/upload/scissors_PNG12.png" />
+      </div>
+      <h3 class="center" id="user_prompt">Make a selection</h3>
+      <h3 id="user_selection" class="center"></h3>
+      <h3 id="computer_selection" class="center"></h3>
+      <hr />
+      <h2 id="result"></h2>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
